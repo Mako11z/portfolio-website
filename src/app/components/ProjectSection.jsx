@@ -7,21 +7,21 @@ const ProjectsData = [
     {
         id: 1,
         title: "JustPositivity",
-        description: "Project description",
+        description: "JustPositivity is a platform designed to promote positivity by allowing users to reflect and create positive entries. Whether it's a moment of gratitude, a personal achievement, or a source of inspiration, JustPositivity is a space to celebrate positivity.",
         image: "/images/JustPositivity.png",
         gitUrl: 'https://github.com/Mako11z/JustPositivity',
     },
     {
         id: 2,
         title: "StopHumanTrafficking",
-        description: "Project description",
+        description: "This website is dedicated to raising awareness about human trafficking, a heinous crime that affects millions of people globally. Our goal is to provide information, resources, and actionable steps for individuals and communities to join the fight against human trafficking.",
         image: "/images/StopHumanTrafficking.png",
         gitUrl: 'https://github.com/Mako11z/StopHumanTrafficking',
     },
     {
         id: 3,
         title: "VibeTrack",
-        description: "Project description",
+        description: "VibeTrack is a nightclub tracker web app that aims to provide an enhanced experience for customers, helping them discover nearby clubs that cater to their preferences and interests.",
         image: "/images/VibeTrack.png",
         gitUrl: 'https://github.com/micnguyen-rnb90/VibeTrack',
     }
