@@ -27,7 +27,7 @@ const NavBar = () => {
     return (
         <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90">
             <div className="flex conatiner lg:py-4 flex-wrap item-center justify-between mx-auto px-4 py-2">
-                <Link href={'/'} className='text-2xl md:text-5xl text-white font-semibold'>Logo</Link>
+                <Link href={'/'} className='text-2xl md:text-5xl text-white font-semibold'>Welcome</Link>
                 <div className="mobile-menu block md:hidden">
                     {navbarOpen ? (
                         <button onClick={() => setNavBarOpen(true)} className="flex items-center px-3 py-3 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white">

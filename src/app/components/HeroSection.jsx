@@ -32,10 +32,8 @@ const HeroSection = () => {
                     <p className="text-[#ADB7BE] sm:text-lg mb-6 lg:text-xl">
                         Passonite about making the world a better place, one line of code at a time
                     </p>
-                    <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">Hire Me</button>
-                    <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-transparent bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500">
-                        <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download Resume</span>
-                    </button>
+                    <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">Download Resume</button>
+                    
                 </motion.div>
                 <div className="col-span-4 place-self-center mt-4 lg:mt-0">
                     <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
