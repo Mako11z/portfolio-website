@@ -14,6 +14,9 @@ const TAB_DATA = [
                 <li>Python</li>
                 <li>Java</li>
                 <li>C++</li>
+                <li>HTML/CSS</li>
+                <li>SQL</li>
+                <li>Realm</li>
             </ul>
         )
     },
@@ -27,16 +30,6 @@ const TAB_DATA = [
             </ul>
         )
     },
-    {
-        title: "Certification",
-        id: "certification",
-        content: (
-            <ul className="list-disc pl-2">
-                <li>CodePath certificate in web developemnt</li>
-                <li>Codepath certificate in technical interviews</li>
-            </ul>
-        )
-    }
 ]
 
 const AboutSection = () => {
@@ -79,7 +72,6 @@ const AboutSection = () => {
                     <div className="flex flex-row mt-8">
                         <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills{" "}</TabButton>
                         <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education{" "}</TabButton>
-                        <TabButton selectTab={() => handleTabChange("certification")} active={tab === "certification"}>Certification{" "}</TabButton>
                     </div>
                     <div className="mt-8">
                         {TAB_DATA.find((t) => t.id === tab).content}
